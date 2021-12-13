@@ -19,4 +19,4 @@
   
 ## Dev
    <a href="https://t.me/JAI6H"><img src="https://img.shields.io/badge/Source%20Dev%3F-here-inactive?&style=plastic?&logo=telegram" width=220px></a></p>
- - ANL0KE (kimo)
+ - Installations User Bot (Java)

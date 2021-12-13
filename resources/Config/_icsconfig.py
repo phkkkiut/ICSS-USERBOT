@@ -21,7 +21,7 @@ class Config(object):
     )
     LOAD_MYBOT = os.environ.get("LOAD_MYBOT", "True")
     TOSH_START = os.environ.get("TOSH_START", None)
-    TZ = os.environ.get("TZ", "Asia/Baghdad")
+    TZ = os.environ.get("TZ", "Africa/Cairo")
     UPSTREAM_REPO = os.environ.get(
         "UPSTREAM_REPO", "https://github.com/JAI6H/ICSS-USERBOT.git"
     )
@@ -48,7 +48,7 @@ class Config(object):
     TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "Icss - UserBot")
     CLEAN_WELCOME = os.environ.get("CLEAN_WELCOME", True)
     THUMB_IMAGE = os.environ.get(
-        "THUMB_IMAGE", "https://telegra.ph/file/e294951013fdb88359650.jpg"
+        "THUMB_IMAGE", "https://telegra.ph/file/aec32bd8e27d91c781a97.jpg"
     )
     UB_BLACK_LIST_CHAT = {
         int(x) for x in os.environ.get("UB_BLACK_LIST_CHAT", "").split()

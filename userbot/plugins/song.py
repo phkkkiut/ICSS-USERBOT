@@ -223,7 +223,7 @@ async def icssongfetcer(event):
         await event.client.send_file(
             event.chat_id,
             music,
-            caption=f"**⌔∮ الاغنيه :** {query}\n**⌔∮ للمستخدم :** {mention}",
+            caption=f"**⌔∮ الاغنيه :** {query}\n**⌔∮ بواسطه المطور :** {mention}",
             parse_mode="html",
             reply_to=reply_id_,
         )

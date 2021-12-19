@@ -176,7 +176,7 @@ async def _(event):
         event.chat_id,
         vsong_file,
         force_document=False,
-        caption=f"**⌔∮ البحث :** {query}\n**⌔∮ للمستخدم :** {mention}",
+        caption=f"**⌔∮ البحث :** {query}\n**⌔∮ بواسطه المطور :** {mention}",
         thumb=icsthb,
         supports_streaming=True,
         reply_to=rd,

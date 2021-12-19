@@ -1,5 +1,5 @@
 # Icss - Userbot
-# Owner - Kimo
+# Owner - Java
 
 import glob
 import os

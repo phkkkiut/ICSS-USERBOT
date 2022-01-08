@@ -2,8 +2,8 @@ from . import reply_id as rd
 from userbot.tosh import *
 
 
-WPIC = "https://telegra.ph/file/dfd7fc05a81748a87761c.jpg"
-T = "𓆰 𝑺𝑶𝑼𝑹𝑪𝑬 𝑰𝑪𝑺𝑺 - 𝑺𝑬𝑪𝑹𝑬𝑻 𝑴𝑺𝑮 𓆪\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n**⌔∮ قائـمه اوامر الهمسه :** \n⪼ `.الهمسه` لعرض كيفيه ارسال الهمسه من بوتك\n⪼ `.همسه` لارسال همسه عن طريق بوت الهمسه  \n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n𓆩 𝙎𝙊𝙐𝙍𝘾𝞝 𝙞𝘾𝙎𝙎 - [𝘿𝙀𝙑](t.me/rruuurr) 𓆪"
+WPIC = "https://telegra.ph/file/d47ad929b2c2e0d798a7d.jpg"
+T = "𓆰 𝑺𝑶𝑼𝑹𝑪𝑬 𝑱𝑨𝑽𝑨 - 𝑺𝑬𝑪𝑹𝑬𝑻 𝑴𝑺𝑮 𓆪\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n**⌔∮ قائـمه اوامر الهمسه :** \n⪼ `.الهمسه` لعرض كيفيه ارسال الهمسه من بوتك\n⪼ `.همسه` لارسال همسه عن طريق بوت الهمسه  \n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n𓆩 𝙎𝙊𝙐𝙍𝘾𝞝 𝙅𝘼𝙑𝘼 - [𝘿𝙀𝙑](https://t.me/GI53H) 𓆪"
 
 @icssbot.on(icss_cmd(pattern="م21"))
 async def wspr(kimo):
@@ -18,7 +18,7 @@ async def kimo(lon):
     ld = await rd(lon)
     if WPIC:
         ics_c = f"اذا تريد ترسل همسه من خلال البوت الخاص بك يجب كتابه اولا #معرف_البوت ثم #secret ثم تكتب #معرف_الي_تريد_تهمسله ثم #الرساله وستضهر ايقونه وتضغط عليها وبس 🖤✨.\n"
-        ics_c += f"**- قم بنسخ :**\n `{TBOT} secret @NIIIN2 الرساله`"
+        ics_c += f"**- قم بنسخ :**\n `{TBOT} secret @GI53H الرساله`"
         await lon.client.send_file(lon.chat_id, WPIC, caption=ics_c, reply_to=ld)
         await lon.delete()   
 
